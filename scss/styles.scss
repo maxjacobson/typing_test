@@ -1,5 +1,11 @@
-$bg: yellow;
+$bg: lightgrey;
 
 body {
   background-color: $bg;
+  width: 500px;
+  margin: 0 auto;
+}
+
+textarea {
+  width: 100%;
 }

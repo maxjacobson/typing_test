@@ -1,3 +1,4 @@
 # Typing Test
 
-`coffee -cw js`
+* `gem install guard`
+* `guard start`

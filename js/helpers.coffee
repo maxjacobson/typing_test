@@ -1,0 +1,1 @@
+window.puts = (output) -> console.log output

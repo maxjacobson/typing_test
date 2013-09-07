@@ -1,11 +1,29 @@
 $bg: lightgrey;
+$width: 650px;
 
 body {
   background-color: $bg;
-  width: 500px;
+  width: 100%;
   margin: 0 auto;
 }
 
 textarea {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
+}
+
+#fork_me {
+  display: none;
+}
+
+@media screen and (min-width: $width) {
+  body {
+    width: $width;
+  }
+  #fork_me {
+    display: inline;
+  }
+  #other_fork_me {
+    display: none;
+  }
 }

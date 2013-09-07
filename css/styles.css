@@ -1,7 +1,21 @@
 body {
   background-color: lightgrey;
-  width: 500px;
+  width: 100%;
   margin: 0 auto; }
 
 textarea {
-  width: 100%; }
+  width: 95%;
+  margin: 0 auto; }
+
+#fork_me {
+  display: none; }
+
+@media screen and (min-width: 650px) {
+  body {
+    width: 650px; }
+
+  #fork_me {
+    display: inline; }
+
+  #other_fork_me {
+    display: none; } }

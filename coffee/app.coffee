@@ -9,6 +9,8 @@ $ ->
     e.preventDefault()
     char = String.fromCharCode(e.which)
     if char is chars[next_char_index].toUpperCase()
+      current_val = $("#test").val()
+      $("#test").val(current_val + char)
       puts "great job! #{char} is #{chars[next_char_index].toUpperCase()}"
       next_char_index++
       correct++
